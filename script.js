@@ -83,7 +83,7 @@ function getUserInput(){
         }
     }
 
-    // get input values form metric units
+    // get input values from metric units
     if(activeForm === "bmi-si"){
         let age = document.getElementById('age2').value,
         gender = document.querySelector('#bmi-si input[name = "gender"]:checked').value,
